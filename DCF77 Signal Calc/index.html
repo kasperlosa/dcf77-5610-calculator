@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DCF77 Signal Strength Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+    <h1>DCF77 Signal Strength Calculator for Casio G-Shock 5610U</h1>
+    <div id="map"></div>
+    <div id="controls">
+        <input type="text" id="address" placeholder="Enter Address or Coordinates">
+        <button id="search">Search</button>
+        <button id="info">Information</button>
+        <p id="signal-strength"></p>
+        <p id="best-time"></p>
+    </div>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

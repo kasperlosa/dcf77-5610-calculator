@@ -1,0 +1,43 @@
+/* Apply Corbel font to the entire body */
+body {
+    font-family: Corbel, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Ensure the map takes up a good portion of the viewport */
+#map {
+    height: 70vh;
+    width: 100%;
+}
+
+/* Style the controls section */
+#controls {
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+/* Style input and button elements */
+#controls input, #controls button {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+/* Style the information button */
+#info {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#info:hover {
+    background-color: #0056b3;
+}
+
+/* Style signal strength and best time paragraphs */
+#signal-strength, #best-time {
+    margin-top: 20px;
+}
