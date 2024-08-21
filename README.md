@@ -13,13 +13,6 @@ The DCF77 Signal Strength Calculator is a web application designed to help users
 
 ## Setup Instructions
 
-1. **Clone the Repository**
-
-   ```bash
-   git clone https://github.com/yourusername/dcf77-signal-calculator.git
-
-or
-
 1. **Download all the files**
 
 Disclaimer: This program/project is entirely made with ChatGPT. It is not good at all, but it is okay if you're looking to buy this watch. There are no malicious code (check for yourself) and it runs entirely on your computer locally.
